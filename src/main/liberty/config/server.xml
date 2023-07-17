@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<server description="Open Liberty Server">
+
+    <featureManager>
+        <feature>microprofile-2.1</feature>
+    </featureManager>
+
+    <httpEndpoint id="defaultHttpEndpoint" host="*" httpPort="3000" httpsPort="9443"/>
+
+    <webApplication location="ServerSupport.war" contextRoot="api"/>
+</server>

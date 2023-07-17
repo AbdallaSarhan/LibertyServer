@@ -1,0 +1,13 @@
+
+arg0=ServerSupportServer
+arg1=--pid=
+arg2=--status
+exit=1
+
+                 Java home:  /usr/local/Cellar/openjdk/19.0.1/libexec/openjdk.jdk/Contents/Home
+              Install root:  /Users/alladba/Desktop/ServerSupport/target/liberty/wlp/
+          System libraries:  /Users/alladba/Desktop/ServerSupport/target/liberty/wlp/lib/
+                 User root:  /Users/alladba/Desktop/ServerSupport/target/liberty/wlp/usr/
+                    Config:  /Users/alladba/Desktop/ServerSupport/target/liberty/wlp/usr/servers/ServerSupportServer/
+                    Output:  /Users/alladba/Desktop/ServerSupport/target/liberty/wlp/usr/servers/ServerSupportServer/
+

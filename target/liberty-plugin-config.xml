@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<liberty-plugin-config>
+    <installDirectory>/Users/alladba/Desktop/ServerSupport/target/liberty/wlp</installDirectory>
+    <serverDirectory>/Users/alladba/Desktop/ServerSupport/target/liberty/wlp/usr/servers/ServerSupportServer</serverDirectory>
+    <userDirectory>/Users/alladba/Desktop/ServerSupport/target/liberty/wlp/usr</userDirectory>
+    <serverOutputDirectory>/Users/alladba/Desktop/ServerSupport/target/liberty/wlp/usr/servers/ServerSupportServer</serverOutputDirectory>
+    <serverName>ServerSupportServer</serverName>
+    <configDirectory>/Users/alladba/Desktop/ServerSupport/src/main/liberty/config</configDirectory>
+    <configFile>/Users/alladba/Desktop/ServerSupport/src/main/liberty/config/server.xml</configFile>
+    <appsDirectory>apps</appsDirectory>
+    <looseApplication>true</looseApplication>
+    <stripVersion>false</stripVersion>
+    <installAppPackages>project</installAppPackages>
+    <applicationFilename>ServerSupport-1.0-SNAPSHOT.war.xml</applicationFilename>
+    <assemblyArtifact>
+        <groupId>com.ibm.websphere.appserver.runtime</groupId>
+        <artifactId>wlp-webProfile8</artifactId>
+        <version>23.0.0.2</version>
+        <type>zip</type>
+    </assemblyArtifact>
+    <assemblyArchive>/Users/alladba/.m2/repository/com/ibm/websphere/appserver/runtime/wlp-webProfile8/23.0.0.2/wlp-webProfile8-23.0.0.2.zip</assemblyArchive>
+    <assemblyInstallDirectory>/Users/alladba/Desktop/ServerSupport/target/liberty</assemblyInstallDirectory>
+    <refresh>false</refresh>
+    <installAppsConfigDropins>/Users/alladba/Desktop/ServerSupport/target/liberty/wlp/usr/servers/ServerSupportServer/configDropins/defaults/install_apps_configuration_1491924271.xml</installAppsConfigDropins>
+    <projectType>war</projectType>
+    <projectCompileDependency>javax.ws.rs:javax.ws.rs-api:2.0</projectCompileDependency>
+    <projectCompileDependency>javax.json.bind:javax.json.bind-api:1.0</projectCompileDependency>
+</liberty-plugin-config>

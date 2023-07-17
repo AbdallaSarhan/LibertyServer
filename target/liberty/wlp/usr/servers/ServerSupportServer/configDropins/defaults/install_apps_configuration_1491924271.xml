@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<server>
+    <webApplication id="ServerSupport" location="ServerSupport-1.0-SNAPSHOT.war" name="ServerSupport"/>
+</server>

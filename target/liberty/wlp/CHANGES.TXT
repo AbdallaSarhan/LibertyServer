@@ -1,0 +1,22 @@
+PH52074 [OLGH24157] Validate header names
+PH52079 [OLGH24276]  - upgrade mime4j to 0.8.9
+PH52095 [OLGH24277]  - CXF-8706: CXF MTOM handler allow content injection
+PH52167 [OLGH24077] DoNotAllowDuplicateSetCookie property not working
+PH52364 Check file existence before delete
+OLGH16007 Runtime injection of detailed method trace fails for a CDI bean
+OLGH23410 UnrecoverableKeyException occurs when using WS-Security Callback handler on Liberty 22.0.0.9
+OLGH23676 Transaction manager unavailable when stopping resource adapters during server shutdown
+OLGH23954 The authCache->cacheRef and webAppSecurity->loggedOutCookieCacheRef server configuration elements are not included in the documentation.
+OLGH23976 Add option to support old format of start-info in multipart/related SOAP messages
+OLGH24001 Fix configuration attribute name used in CWWKS1738E message
+OLGH24007 server dump command fails in WL on IBM i
+OLGH24047 Memory in com.ibm.ws.wsat.service.WebClient when creating thread context class loaders
+OLGH24048 Possible performance issue in com.ibm.ws.wsat.service.impl.WebClientImpl
+OLGH24056 batch-2.1 feature content is active even when configuring batch-1.0 or 2.0
+OLGH24077 DoNotAllowDuplicateSetCookies http channel config option is not working
+OLGH24155 Memory leak in JaxRsFactoryImplicitBeanCDICustomizer
+OLGH24157 Validate HTTP header names
+OLGH24276 Upgrade mime4j to 0.8.9
+OLGH24277 Backport CXF-8706: CXF MTOM handler allow content injection
+OLGH24293 Scheduled Futures leak resources from Managed Executor Services on application stop
+OLGH24371 Server fails to start due to conflict on servlet feature

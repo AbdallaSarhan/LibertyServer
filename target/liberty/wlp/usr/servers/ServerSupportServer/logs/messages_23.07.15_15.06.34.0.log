@@ -1,0 +1,102 @@
+********************************************************************************
+product = WebSphere Application Server 23.0.0.2 (wlp-1.0.74.cl230220230222-1257)
+wlp.install.dir = /Users/alladba/Desktop/ServerSupport/target/liberty/wlp/
+java.home = /usr/local/Cellar/openjdk/19.0.1/libexec/openjdk.jdk/Contents/Home
+java.version = 19.0.1
+java.runtime = OpenJDK Runtime Environment (19.0.1)
+os = Mac OS X (13.3.1; x86_64) (en_CA)
+process = 18206@Abdallas-MBP
+Classpath = /Users/alladba/Desktop/ServerSupport/target/liberty/wlp/bin/tools/ws-server.jar
+Java Library path = /Users/alladba/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+********************************************************************************
+[2023-07-15, 15:05:02:888 EDT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server ServerSupportServer has been launched.
+[2023-07-15, 15:05:02:923 EDT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0100I: This product is licensed for development, and limited production use. The full license terms can be viewed here: https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/license/base_ilan/ilan/23.0.0.2/lafiles/en.html
+[2023-07-15, 15:05:03:310 EDT] 0000002a com.ibm.ws.config.xml.internal.ServerXMLConfiguration        A CWWKG0093A: Processing configuration drop-ins resource: /Users/alladba/Desktop/ServerSupport/target/liberty/wlp/usr/servers/ServerSupportServer/configDropins/defaults/install_apps_configuration_1491924271.xml
+[2023-07-15, 15:05:03:442 EDT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 0.768 seconds
+[2023-07-15, 15:05:03:465 EDT] 00000033 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[2023-07-15, 15:05:03:685 EDT] 00000026 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: The security service is starting...
+[2023-07-15, 15:05:03:769 EDT] 00000028 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications.
+[2023-07-15, 15:05:03:784 EDT] 0000002f com.ibm.ws.app.manager.AppMessageHelper                      E CWWKZ0013E: It is not possible to start two applications called ServerSupport.
+[2023-07-15, 15:05:04:015 EDT] 00000029 .ws.security.mp.jwt.v11.config.impl.MpConfigProxyServiceImpl I CWWKS5775I: The MicroProfile JWT version 1.1 mpConfigProxy processed successfully.
+[2023-07-15, 15:05:04:024 EDT] 0000002a com.ibm.ws.cache.ServerCache                                 I DYNA1001I: WebSphere Dynamic Cache instance named baseCache initialized successfully.
+[2023-07-15, 15:05:04:026 EDT] 0000002a com.ibm.ws.cache.ServerCache                                 I DYNA1071I: The cache provider default is being used.
+[2023-07-15, 15:05:04:027 EDT] 0000002a com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[2023-07-15, 15:05:04:176 EDT] 0000002f com.ibm.ws.ssl.config.WSKeyStore                             A CWPKI0820A: The default keystore has been created using the 'keystore_password' environment variable.
+[2023-07-15, 15:05:04:194 EDT] 0000003f com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreateTask    I CWWKS4105I: LTPA configuration is ready after 0.010 seconds.
+[2023-07-15, 15:05:04:210 EDT] 00000026 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1123I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been activated. 
+[2023-07-15, 15:05:04:323 EDT] 0000002f com.ibm.ws.ssl.config.WSKeyStore                             I Successfully loaded default keystore: /Users/alladba/Desktop/ServerSupport/target/liberty/wlp/usr/servers/ServerSupportServer/resources/security/key.p12 of type: PKCS12
+[2023-07-15, 15:05:04:366 EDT] 00000026 com.ibm.ws.security.jwt.internal.ConsumerImpl                I CWWKS6012I: The JSON Web Token (JWT) consumer service is available.
+[2023-07-15, 15:05:04:376 EDT] 0000002f com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtServiceImpl   I CWWKS5500I: The MicroProfile JWT configuration [MicroProfileJwtService] was successfully processed.
+[2023-07-15, 15:05:04:377 EDT] 0000002f com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5500I: The MicroProfile JWT configuration [defaultMpJwt] was successfully processed.
+[2023-07-15, 15:05:04:381 EDT] 00000026 com.ibm.ws.security.jwt.web.JwtEndpointServices              I CWWKS6002I: The JSON Web Token (JWT) endpoint service is available.
+[2023-07-15, 15:05:04:443 EDT] 00000026 com.ibm.ws.session.WASSessionCore                            I SESN8501I: The session manager did not find a persistent storage location; HttpSession objects will be stored in the local application server's memory.
+[2023-07-15, 15:05:04:738 EDT] 00000041 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application ServerSupport.
+[2023-07-15, 15:05:04:740 EDT] 00000041 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The ServerSupport application is using the loose application definition at the /Users/alladba/Desktop/ServerSupport/target/liberty/wlp/usr/servers/ServerSupportServer/apps/ServerSupport-1.0-SNAPSHOT.war.xml location.
+[2023-07-15, 15:05:04:916 EDT] 0000003f com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: health.
+[2023-07-15, 15:05:04:916 EDT] 0000004d com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: ibm/api.
+[2023-07-15, 15:05:04:915 EDT] 0000004c com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: com.ibm.ws.security.jwt.
+[2023-07-15, 15:05:04:915 EDT] 00000035 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: PrivateMicroProfileMetrics.
+[2023-07-15, 15:05:04:915 EDT] 00000039 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: MicroProfileOpenAPI.
+[2023-07-15, 15:05:04:918 EDT] 0000004c com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module com.ibm.ws.security.jwt has been bound to default_host.
+[2023-07-15, 15:05:04:918 EDT] 0000003f com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module health has been bound to default_host.
+[2023-07-15, 15:05:04:918 EDT] 0000004d com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module ibm/api has been bound to default_host.
+[2023-07-15, 15:05:04:916 EDT] 00000038 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: OpenAPIUI.
+[2023-07-15, 15:05:04:918 EDT] 00000039 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module MicroProfileOpenAPI has been bound to default_host.
+[2023-07-15, 15:05:04:918 EDT] 00000035 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module PrivateMicroProfileMetrics has been bound to default_host.
+[2023-07-15, 15:05:04:918 EDT] 00000038 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module OpenAPIUI has been bound to default_host.
+[2023-07-15, 15:05:04:919 EDT] 0000004c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://abdallas-mbp:3000/jwt/
+[2023-07-15, 15:05:04:920 EDT] 00000038 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://abdallas-mbp:3000/openapi/ui/
+[2023-07-15, 15:05:04:920 EDT] 00000035 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://abdallas-mbp:3000/metrics/
+[2023-07-15, 15:05:04:921 EDT] 00000039 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://abdallas-mbp:3000/openapi/
+[2023-07-15, 15:05:04:921 EDT] 0000004d com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://abdallas-mbp:3000/ibm/api/
+[2023-07-15, 15:05:04:922 EDT] 0000003f com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://abdallas-mbp:3000/health/
+[2023-07-15, 15:05:04:966 EDT] 0000004c com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/health
+[2023-07-15, 15:05:04:966 EDT] 0000004b com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/openapi/ui
+[2023-07-15, 15:05:04:966 EDT] 0000004a com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/openapi
+[2023-07-15, 15:05:04:966 EDT] 00000049 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/metrics
+[2023-07-15, 15:05:04:966 EDT] 00000048 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/jwt
+[2023-07-15, 15:05:04:966 EDT] 00000043 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/ibm/api
+[2023-07-15, 15:05:04:974 EDT] 0000004c com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[2023-07-15, 15:05:04:981 EDT] 00000043 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[2023-07-15, 15:05:04:982 EDT] 00000048 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[2023-07-15, 15:05:04:982 EDT] 00000049 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[2023-07-15, 15:05:04:982 EDT] 0000004a com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[2023-07-15, 15:05:04:983 EDT] 0000004b com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[2023-07-15, 15:05:04:988 EDT] 0000004b com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[2023-07-15, 15:05:05:038 EDT] 0000004a com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [com.ibm.ws.microprofile.openapi] [/openapi] [OpenAPIServlet]: Initialization successful.
+[2023-07-15, 15:05:05:040 EDT] 00000049 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [com.ibm.ws.microprofile.metrics.private] [/metrics] [PrivateMetricsRESTProxyServlet]: Initialization successful.
+[2023-07-15, 15:05:05:093 EDT] 00000044 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /Users/alladba/Desktop/ServerSupport/target/liberty/wlp/usr/servers/ServerSupportServer/logs/state/plugin-cfg.xml.
+[2023-07-15, 15:05:05:201 EDT] 00000041 com.ibm.ws.microprofile.openapi.ApplicationProcessor         I CWWKO1660I: The application ServerSupport was processed and an OpenAPI document was produced.
+[2023-07-15, 15:05:05:231 EDT] 00000041 org.jboss.weld.Version                                       I WELD-000900: 3.1.9 (Final)
+[2023-07-15, 15:05:05:406 EDT] 00000041 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: ServerSupport-1.0-SNAPSHOT.
+[2023-07-15, 15:05:05:407 EDT] 00000041 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module ServerSupport-1.0-SNAPSHOT has been bound to default_host.
+[2023-07-15, 15:05:05:407 EDT] 00000041 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://abdallas-mbp:3000/ServerSupport/
+[2023-07-15, 15:05:05:408 EDT] 0000004c com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/ServerSupport
+[2023-07-15, 15:05:05:408 EDT] 0000004c com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[2023-07-15, 15:05:05:417 EDT] 0000004c com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application ServerSupport started in 0.678 seconds.
+[2023-07-15, 15:05:05:431 EDT] 0000004b com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /Users/alladba/Desktop/ServerSupport/target/liberty/wlp/usr/servers/ServerSupportServer/logs/state/plugin-cfg.xml.
+[2023-07-15, 15:05:05:446 EDT] 00000033 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: TCP Channel defaultHttpEndpoint has been started and is now listening for requests on host *  (IPv6) port 3000.
+[2023-07-15, 15:05:05:448 EDT] 00000033 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: TCP Channel defaultHttpEndpoint-ssl has been started and is now listening for requests on host *  (IPv6) port 9443.
+[2023-07-15, 15:05:05:452 EDT] 00000033 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [appSecurity-2.0, cdi-2.0, concurrent-1.0, distributedMap-1.0, jaxrs-2.1, jaxrsClient-2.1, jndi-1.0, json-1.0, jsonb-1.0, jsonp-1.1, jwt-1.0, microProfile-2.1, mpConfig-1.3, mpFaultTolerance-1.1, mpHealth-1.0, mpJwt-1.1, mpMetrics-1.1, mpOpenAPI-1.0, mpOpenTracing-1.2, mpRestClient-1.1, opentracing-1.2, servlet-4.0, ssl-1.0].
+[2023-07-15, 15:05:05:453 EDT] 00000033 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 2.011 seconds.
+[2023-07-15, 15:05:05:453 EDT] 00000033 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The ServerSupportServer server is ready to run a smarter planet. The ServerSupportServer server started in 2.779 seconds.
+[2023-07-15, 15:06:17:691 EDT] 00000022 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0085I: The server ServerSupportServer is stopping because the JVM is exiting.
+[2023-07-15, 15:06:17:695 EDT] 00000052 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Waiting for up to 30 seconds for the server to quiesce.
+[2023-07-15, 15:06:17:704 EDT] 00000039 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: TCP Channel defaultHttpEndpoint-ssl has stopped listening for requests on host *  (IPv6) port 9443.
+[2023-07-15, 15:06:17:706 EDT] 00000039 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: TCP Channel defaultHttpEndpoint has stopped listening for requests on host *  (IPv6) port 3000.
+[2023-07-15, 15:06:17:706 EDT] 00000039 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://abdallas-mbp:3000/ServerSupport/
+[2023-07-15, 15:06:17:706 EDT] 00000039 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://abdallas-mbp:3000/jwt/
+[2023-07-15, 15:06:17:707 EDT] 00000039 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://abdallas-mbp:3000/openapi/ui/
+[2023-07-15, 15:06:17:708 EDT] 00000039 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://abdallas-mbp:3000/metrics/
+[2023-07-15, 15:06:17:709 EDT] 00000039 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://abdallas-mbp:3000/health/
+[2023-07-15, 15:06:17:709 EDT] 00000039 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://abdallas-mbp:3000/openapi/
+[2023-07-15, 15:06:17:709 EDT] 00000039 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://abdallas-mbp:3000/ibm/api/
+[2023-07-15, 15:06:17:926 EDT] 00000023 com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Server shutdown requested on Saturday, July 15, 2023 at 3:06 p.m.. The server ServerSupportServer is shutting down.
+[2023-07-15, 15:06:18:716 EDT] 00000052 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Server quiesce complete.
+[2023-07-15, 15:06:18:758 EDT] 00000048 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application ServerSupport has stopped successfully.
+[2023-07-15, 15:06:18:871 EDT] 00000052 .ws.security.mp.jwt.v11.config.impl.MpConfigProxyServiceImpl I CWWKS5777I: The MicroProfile JWT version 1.1 mpConfigProxy deactivated successfully.
+[2023-07-15, 15:06:18:874 EDT] 00000052 com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5502I: The MicroProfile JWT configuration [defaultMpJwt] was successfully deactivated.
+[2023-07-15, 15:06:18:874 EDT] 00000052 com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtServiceImpl   I CWWKS5502I: The MicroProfile JWT configuration [MicroProfileJwtService] was successfully deactivated.
+[2023-07-15, 15:06:18:973 EDT] 00000052 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1124I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been deactivated. 
+[2023-07-15, 15:06:18:980 EDT] 00000052 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0009I: The security service has stopped.
+[2023-07-15, 15:06:19:282 EDT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: The server ServerSupportServer stopped after 1 minutes, 16.607 seconds.

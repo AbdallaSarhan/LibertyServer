@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archive>
+    <dir sourceOnDisk="/Users/alladba/Desktop/ServerSupport/target/classes" targetInArchive="/WEB-INF/classes"/>
+    <file sourceOnDisk="/Users/alladba/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.0/javax.ws.rs-api-2.0.jar" targetInArchive="/WEB-INF/lib/javax.ws.rs-api-2.0.jar"/>
+    <file sourceOnDisk="/Users/alladba/.m2/repository/javax/json/bind/javax.json.bind-api/1.0/javax.json.bind-api-1.0.jar" targetInArchive="/WEB-INF/lib/javax.json.bind-api-1.0.jar"/>
+    <file sourceOnDisk="/Users/alladba/Desktop/ServerSupport/target/tmp/META-INF/MANIFEST.MF" targetInArchive="/META-INF/MANIFEST.MF"/>
+</archive>
